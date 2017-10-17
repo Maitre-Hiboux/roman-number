@@ -22,7 +22,7 @@ public class RomanNumberConverter {
                 break;
             case "D":  number = 500;
                 break;
-            case "M":  number = 1000;
+            case "M":  number = 1000;/*pates*/
                 break;
             default: throw new IllegalArgumentException("wrong romanNumber");
         }
