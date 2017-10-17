@@ -11,12 +11,12 @@ dependencies {
 }
 jacoco {
     toolVersion = "0.7.6.201602180812"
-    reportsDir = file('C:\\Users\\max\\Documents\\MGL\\jacocoreports')
+    reportsDir = file('/tmp/jenkins/jacocoreports')
 }
 jacocoTestReport {
     reports {
         xml.enabled false
         csv.enabled false
-        html.destination file("C:\\Users\\max\\Documents\\MGL\\jacocoHtml")
+        html.destination file("/tmp/jenkins/jacocoHtml")
     }
 }
