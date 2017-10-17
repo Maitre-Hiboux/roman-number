@@ -11,8 +11,7 @@ branches:
     - master
 
 before_script:
-  - git fetch
-  - git checkout -b master
+  - git pull
 
 script:
   - ./gradle clean build test
