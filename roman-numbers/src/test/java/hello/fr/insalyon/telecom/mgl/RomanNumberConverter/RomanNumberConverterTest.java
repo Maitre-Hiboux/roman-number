@@ -21,7 +21,7 @@ public class RomanNumberConverterTest {
     @Test
     public void check() {
         assertThat(hello.converttoroman(1))
-                .isEqualTo("K");
+                .isEqualTo("I");
         assertThat(hello.converttoroman(5))
                 .isEqualTo("V");
         assertThat(hello.converttoroman(10))
