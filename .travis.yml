@@ -14,4 +14,4 @@ before_script:
   - git pull
 
 script:
-  - ./gradle clean build test
+  - gradle clean build test
